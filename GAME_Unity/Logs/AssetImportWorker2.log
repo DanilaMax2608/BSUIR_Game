@@ -1,0 +1,251 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.0f1 (4ff56b3ea44c) revision 5240171'; Using compiler version '193933522'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\danil\OneDrive\Рабочий стол\Unity Download\6000.0.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/UnityProjects/GAME_Unity
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1499
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/UnityProjects/GAME_Unity
+C:/UnityProjects/GAME_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9880]  Target information:
+
+Player connection [9880]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4235179178 [EditorId] 4235179178 [Version] 1048832 [Id] WindowsEditor(7,DanilaMax-NOTEBOOK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9880]  * "[IP] 192.168.100.15 [Port] 0 [Flags] 2 [Guid] 4235179178 [EditorId] 4235179178 [Version] 1048832 [Id] WindowsEditor(7,DanilaMax-NOTEBOOK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.0f1 (4ff56b3ea44c)
+[Subsystems] Discovering subsystems at path C:/Users/danil/OneDrive/Рабочий стол/Unity Download/6000.0.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/GAME_Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:          ATI
+    VRAM:            7862 MB
+    App VRAM Budget: 7683 MB
+    Driver:          31.0.21921.1000
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Users/danil/OneDrive/Рабочий стол/Unity Download/6000.0.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/danil/OneDrive/Рабочий стол/Unity Download/6000.0.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/danil/OneDrive/Рабочий стол/Unity Download/6000.0.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/danil/OneDrive/Рабочий стол/Unity Download/6000.0.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009162 seconds.
+- Loaded All Assemblies, in  1.057 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1883ms
+	BeginReloadAssembly (382ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (181ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (337ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (346ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.420 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component HDRenderPipelineGlobalSettings on game object HDRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.HighDefinition.VolumetricCloudsRuntimeResources, Unity.RenderPipelines.HighDefinition.Runtime (1 object)
+	UnityEngine.Rendering.HighDefinition.WaterSystemGlobalSettings, Unity.RenderPipelines.HighDefinition.Runtime (1 object)
+	UnityEngine.Rendering.HighDefinition.WaterSystemRuntimeResources, Unity.RenderPipelines.HighDefinition.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.193 seconds
+Domain Reload Profiling: 8606ms
+	BeginReloadAssembly (2695ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (177ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (2330ms)
+		LoadAssemblies (1872ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (986ms)
+			TypeCache.Refresh (736ms)
+				TypeCache.ScanAssembly (678ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (3194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (936ms)
+			ProcessInitializeOnLoadMethodAttributes (1258ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6692 unused Assets / (6.0 MB). Loaded Objects now: 7751.
+Memory consumption went from 269.6 MB to 263.6 MB.
+Total: 37.125900 ms (FindLiveObjects: 2.710200 ms CreateObjectMapping: 3.231200 ms MarkObjects: 21.313500 ms  DeleteObjects: 9.867100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88660.211380 seconds.
+  path: Assets/Unity/Apar_Toilet_Walls_MaskMap.jpg
+  artifactKey: Guid(03cd319bfd48ce7439b08f0438c78809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Toilet_Walls_MaskMap.jpg using Guid(03cd319bfd48ce7439b08f0438c78809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'efdba720c9e8f84a775f6415721446f7') in 0.1549011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/Bathroom_BaseColor.mat
+  artifactKey: Guid(7052f05892ddfb94790ad9797915787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bathroom_BaseColor.mat using Guid(7052f05892ddfb94790ad9797915787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5ebdb0206313f89d57bc18e413c43a4a') in 6.9178155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.999215 seconds.
+  path: Assets/Unity/Babka_Cloth.001_BaseMap.jpg
+  artifactKey: Guid(46dcc1c8cc186364aa14181cfb9a1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Cloth.001_BaseMap.jpg using Guid(46dcc1c8cc186364aa14181cfb9a1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3ee8558d8c0cfff38d2393812b555942') in 0.0221141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008995 seconds.
+  path: Assets/Unity/roof_Roof_BaseMap.jpg
+  artifactKey: Guid(665eb7bdddd7e3f43b3ba7c22abb22c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/roof_Roof_BaseMap.jpg using Guid(665eb7bdddd7e3f43b3ba7c22abb22c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bf568d65547ba57c3edc0f01dc9b7f42') in 0.0363842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg
+  artifactKey: Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg using Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'cc6470b5ab03de6f52e0abd7c2062375') in 0.0276123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_MaskMap.jpg
+  artifactKey: Guid(96d35ab83e216f049a5c122e8997ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_MaskMap.jpg using Guid(96d35ab83e216f049a5c122e8997ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3e39dac4d993af5904f20c36e6f15790') in 0.0236932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

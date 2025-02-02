@@ -1,0 +1,696 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 65401 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GAME_Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61444
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/GAME_Unity
+D:/GAME_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39572]  Target information:
+
+Player connection [39572]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2002367201 [EditorId] 2002367201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3291VA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39572] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39572] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.35f1 (9a3bc604008a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GAME_Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004440 seconds.
+- Loaded All Assemblies, in  0.610 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 1056ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (217ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.129 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.357 seconds
+Domain Reload Profiling: 2483ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (763ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (462ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (408ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 460 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6700 unused Assets / (5.4 MB). Loaded Objects now: 7669.
+Memory consumption went from 252.5 MB to 247.1 MB.
+Total: 15.598700 ms (FindLiveObjects: 0.826100 ms CreateObjectMapping: 2.532000 ms MarkObjects: 6.933600 ms  DeleteObjects: 5.304700 ms)
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6690 unused Assets / (2.8 MB). Loaded Objects now: 7667.
+Memory consumption went from 206.3 MB to 203.5 MB.
+Total: 36.309000 ms (FindLiveObjects: 1.722200 ms CreateObjectMapping: 1.958600 ms MarkObjects: 28.531900 ms  DeleteObjects: 4.094000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 351750.513155 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(1bd16d14df58fd14b9d20243c18684e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(1bd16d14df58fd14b9d20243c18684e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+ -> (artifact id: '0ba8b0dbed2046db9a6dc8ae6a6422d7') in 72.7953538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  1.349 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 2328ms
+	BeginReloadAssembly (493ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (69ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (173ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (731ms)
+		LoadAssemblies (547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (306ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (609ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6697 unused Assets / (5.3 MB). Loaded Objects now: 7805.
+Memory consumption went from 243.1 MB to 237.8 MB.
+Total: 11.615600 ms (FindLiveObjects: 0.823700 ms CreateObjectMapping: 1.116300 ms MarkObjects: 5.920900 ms  DeleteObjects: 3.752900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1107ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6696 unused Assets / (5.0 MB). Loaded Objects now: 7807.
+Memory consumption went from 250.5 MB to 245.6 MB.
+Total: 5.573500 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.460000 ms MarkObjects: 2.940500 ms  DeleteObjects: 1.680600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 257.954491 seconds.
+  path: Assets/Unity/Apar_Balcony2_Walls_MaskMap.jpg
+  artifactKey: Guid(72a953995b9d352469d35345b17a8fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Balcony2_Walls_MaskMap.jpg using Guid(72a953995b9d352469d35345b17a8fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7efff25f10948285791408d5656d17aa') in 0.0634619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity/Apar_Corridor_Walls_Normal.jpg
+  artifactKey: Guid(ea488a149c7b09d4bbf940b39f565cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Corridor_Walls_Normal.jpg using Guid(ea488a149c7b09d4bbf940b39f565cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a3fc94cc1c3fbffb3d1b9b74dc6241') in 0.055356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity/Apar_Living_Room_Walls_MaskMap.jpg
+  artifactKey: Guid(2b05071eb77e66c4fba19f6a95e2b383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Living_Room_Walls_MaskMap.jpg using Guid(2b05071eb77e66c4fba19f6a95e2b383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c60b759a68d9a72d966d0e923018f531') in 0.0061069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Unity/Apar_Doors_Mat_BaseMap.jpg
+  artifactKey: Guid(e0a068a747d6bfa479720dc8911db5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Doors_Mat_BaseMap.jpg using Guid(e0a068a747d6bfa479720dc8911db5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28a73e85fd0bd86cafad864a91937d4e') in 0.0187532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Unity/Apar_Radiators_Mat_BaseMap.jpg
+  artifactKey: Guid(b89d12f20ec247344b1e0f3823dbaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Radiators_Mat_BaseMap.jpg using Guid(b89d12f20ec247344b1e0f3823dbaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d87d18ba8a221e8ee20af17728c8010') in 0.3950277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity/Apar_Balcony_Walls_MaskMap.jpg
+  artifactKey: Guid(d304d60cb3150d34dac3c7ab49b14816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Balcony_Walls_MaskMap.jpg using Guid(d304d60cb3150d34dac3c7ab49b14816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25547146a8979a64a14686b5fdb0fca6') in 0.0059924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity/Apar_Roof_MaskMap.jpg
+  artifactKey: Guid(1e7cf8a8b3d29ee4aa835831957c16e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Roof_MaskMap.jpg using Guid(1e7cf8a8b3d29ee4aa835831957c16e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae2b6ad499d4326dd16c762e5310cb38') in 0.0075451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity/Apar_Bathroom_MaskMap.jpg
+  artifactKey: Guid(f1d98ee1384889e4d9ada3e41897d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bathroom_MaskMap.jpg using Guid(f1d98ee1384889e4d9ada3e41897d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12885005eadd44bace3f1ffe5ed6b2a1') in 0.0079245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Doors_Mat_Normal.jpg
+  artifactKey: Guid(b90a005635ab2ae43847defe0cc25021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Doors_Mat_Normal.jpg using Guid(b90a005635ab2ae43847defe0cc25021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27cd03ecc73148d2713094a222c67312') in 0.0167095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Kitchen_Walls_MaskMap.jpg
+  artifactKey: Guid(4b6919918e96dad4da4a483d595830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Kitchen_Walls_MaskMap.jpg using Guid(4b6919918e96dad4da4a483d595830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0164fae2ad4bafbc28ac5dfc7a765494') in 0.0058672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_cORR2_MaskMap.jpg
+  artifactKey: Guid(96c260d4c2bf9ad49b7de64d75e80cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_cORR2_MaskMap.jpg using Guid(96c260d4c2bf9ad49b7de64d75e80cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9bc4f81deab179a87fb43a50d607304') in 0.0057975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Apar_Roof_BaseMap.jpg
+  artifactKey: Guid(f2acc978ae657cb448d305b24b09a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Roof_BaseMap.jpg using Guid(f2acc978ae657cb448d305b24b09a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46bf37fc72e88969d8e1f6984bdf12db') in 0.0154512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity/Apar_Toilet_Walls_MaskMap.jpg
+  artifactKey: Guid(03cd319bfd48ce7439b08f0438c78809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Toilet_Walls_MaskMap.jpg using Guid(03cd319bfd48ce7439b08f0438c78809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9e94d831e44b000b9d6b99f1342349d') in 0.0055522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Apar_Radiators_Mat_Normal.jpg
+  artifactKey: Guid(aa8271db9a4a6f441b6379c9abf86307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Radiators_Mat_Normal.jpg using Guid(aa8271db9a4a6f441b6379c9abf86307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f050c5c6c01ec06bb291b42ca40280') in 0.0169241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_Bedroom_Walls_Normal.jpg
+  artifactKey: Guid(d5bd72ed364823e40965a7d8827f5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bedroom_Walls_Normal.jpg using Guid(d5bd72ed364823e40965a7d8827f5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1237c18ed1215edd3cc3d7d6300b5669') in 0.0115372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Apar_Radiators_Mat_MaskMap.jpg
+  artifactKey: Guid(90bee41fa4c07c741b08ab221150e3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Radiators_Mat_MaskMap.jpg using Guid(90bee41fa4c07c741b08ab221150e3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2030092a345048872c46a4a51cec208f') in 0.017952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Apar_Doors_Mat_MaskMap.jpg
+  artifactKey: Guid(d36ae009bc3a8c24898728e00b53439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Doors_Mat_MaskMap.jpg using Guid(d36ae009bc3a8c24898728e00b53439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ed05396c6930e91ed59adb6f7e1bdd') in 0.0111229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Tambur_Walls_Normal.jpg
+  artifactKey: Guid(23b60670835e95f4398ee0d678f3f498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Tambur_Walls_Normal.jpg using Guid(23b60670835e95f4398ee0d678f3f498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72340a5a0e43f1ccc336eb5f97388975') in 0.026552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_Kitchen_MaskMap.jpg
+  artifactKey: Guid(1468a2f342a0e094e9682fadf8c9997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Kitchen_MaskMap.jpg using Guid(1468a2f342a0e094e9682fadf8c9997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd24b847e4a72dc5d52610761f2d24870') in 0.0062128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Bedroom_Normal.jpg
+  artifactKey: Guid(741e05a66a83c4043babc310580c6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bedroom_Normal.jpg using Guid(741e05a66a83c4043babc310580c6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4592e325006f654e72938ac7818eb5db') in 0.0121955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Apar_Bottom_Molding_Mat_MaskMap.jpg
+  artifactKey: Guid(33a0539584997be43aa03a9099be24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bottom_Molding_Mat_MaskMap.jpg using Guid(33a0539584997be43aa03a9099be24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'babd43cc22dd1c34dd5a60845553695e') in 0.0058625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity/Apar_Tambur_Walls_BaseMap.jpg
+  artifactKey: Guid(13df40856013eab499513a135bd7896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Tambur_Walls_BaseMap.jpg using Guid(13df40856013eab499513a135bd7896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dd7c61e65fd503095d588fc0c364349') in 0.01532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_Toilet_Walls_Normal.jpg
+  artifactKey: Guid(ad3af0e97a2d46243944a9521cb4ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Toilet_Walls_Normal.jpg using Guid(ad3af0e97a2d46243944a9521cb4ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef18fedfae530481c530b164cdf68256') in 0.0139393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Apar_Livingroom_Normal.jpg
+  artifactKey: Guid(a62caaa682088d14785d2c28b65c70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Livingroom_Normal.jpg using Guid(a62caaa682088d14785d2c28b65c70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10dbcc1d24094408af1bebb4024e5fc0') in 0.0264672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Balcony_Normal.jpg
+  artifactKey: Guid(1654672aaefc4f648b50ed5759f66ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Balcony_Normal.jpg using Guid(1654672aaefc4f648b50ed5759f66ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e2b16b31086ca98f892637eaa8224b') in 0.0139848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Apar_Base_Normal.jpg
+  artifactKey: Guid(b1afdba40d42bff4c897b1e85b00a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Base_Normal.jpg using Guid(b1afdba40d42bff4c897b1e85b00a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d94b715aacf665c0ebb0fc5b11a3bb9') in 0.0247258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity/Apar_cORR2_Normal.jpg
+  artifactKey: Guid(e51ba8ead64d47d4e8e2e83c78fbdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_cORR2_Normal.jpg using Guid(e51ba8ead64d47d4e8e2e83c78fbdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f5f9d960ff08a8dcd07310c0c79926') in 0.0133745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Apar_Window_Fix_BaseMap.jpg
+  artifactKey: Guid(12dd51b16c043aa4dacebf3bc62f5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Window_Fix_BaseMap.jpg using Guid(12dd51b16c043aa4dacebf3bc62f5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb18fe812cc7ac0d53b3e4233dafd34') in 0.0157873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Babka_Body.001_MaskMap.jpg
+  artifactKey: Guid(e811527b0706bb944bd97c629bfdda8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Body.001_MaskMap.jpg using Guid(e811527b0706bb944bd97c629bfdda8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3849bc7352ba53f5221b1bdf1935bdd9') in 0.0118159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity/Apar_Walls_Mat_Normal.jpg
+  artifactKey: Guid(bf1100e6118866048939f63fabe07fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Walls_Mat_Normal.jpg using Guid(bf1100e6118866048939f63fabe07fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70190e7bc2de945c65d70c057002e4c6') in 0.0143075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_Wall_Tiles_Normal.jpg
+  artifactKey: Guid(a96124ce724687249bad0ed3832b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Wall_Tiles_Normal.jpg using Guid(a96124ce724687249bad0ed3832b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec21da31afbe21613fd2213c3eca166') in 0.0155415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Walls_Mat_MaskMap.jpg
+  artifactKey: Guid(d9f7afd928941634baab617f39ba275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Walls_Mat_MaskMap.jpg using Guid(d9f7afd928941634baab617f39ba275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dd13524b7d51eeb63f5ec69ae793c29') in 0.0063996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity/Apar_Window3_Mat_BaseMap.jpg
+  artifactKey: Guid(c7b9304f897469742b521d00cec413fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Window3_Mat_BaseMap.jpg using Guid(c7b9304f897469742b521d00cec413fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b38fb23acbc1ddeb9e0bf08d67d57da2') in 0.0311723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity/Apar_Corridor_Normal.jpg
+  artifactKey: Guid(77a7b790f2a61ef45b26bf1f99ea242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Corridor_Normal.jpg using Guid(77a7b790f2a61ef45b26bf1f99ea242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b1ab3ba93a389df4c0c3d6fc95fa6a') in 0.0213438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Unity/Apar_Bedroom_MaskMap.jpg
+  artifactKey: Guid(d88e2e86318a65940a93d741e7128183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bedroom_MaskMap.jpg using Guid(d88e2e86318a65940a93d741e7128183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f736e27c2ab99dc911b4d4e4766b3772') in 0.0071529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity/Apar_Door_Archs_MaskMap.jpg
+  artifactKey: Guid(42e8f57962ed7e8459ccb033cdd0fdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Door_Archs_MaskMap.jpg using Guid(42e8f57962ed7e8459ccb033cdd0fdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1fd52e92e66c590a1a23c49ed5bb216') in 0.0079834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Apar_Bedroom_Walls_MaskMap.jpg
+  artifactKey: Guid(b22d01ed68a023b4ebf181701e17bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bedroom_Walls_MaskMap.jpg using Guid(b22d01ed68a023b4ebf181701e17bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79c35cc9b4fb21fd3cb9e49a2ba997d7') in 0.0073787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity/Apar_Roof_Normal.jpg
+  artifactKey: Guid(9db394bcede67154aa1e191e54b3ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Roof_Normal.jpg using Guid(9db394bcede67154aa1e191e54b3ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73c0f2ce5ab4e5243a5d2bfcb002ad7d') in 0.0155796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity/Apar_Wall_Tiles_MaskMap.jpg
+  artifactKey: Guid(f31d8007b37cab84fadd3ee113b9096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Wall_Tiles_MaskMap.jpg using Guid(f31d8007b37cab84fadd3ee113b9096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '769d81845607a84a0e977d736b3a9e84') in 0.0085484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Kitchen_BaseMap.jpg
+  artifactKey: Guid(154b2f9b5b3cfc84e8b36417342844b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Kitchen_BaseMap.jpg using Guid(154b2f9b5b3cfc84e8b36417342844b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aae809cc92fc43f7cac76a7756e6da9b') in 0.0214778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.017296 seconds.
+  path: Assets/Unity/Babka_Cloth.001_MaskMap.jpg
+  artifactKey: Guid(46162e1ebbb7c46429a894f8fbc41bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Cloth.001_MaskMap.jpg using Guid(46162e1ebbb7c46429a894f8fbc41bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909dab82399e947d2e6c4ce91545e6d6') in 0.0453098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity/Babka_Face_BaseMap.jpg
+  artifactKey: Guid(77e5eaf3272b9e340b09cd2f1a0e90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Face_BaseMap.jpg using Guid(77e5eaf3272b9e340b09cd2f1a0e90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d1a01f9295740106cd41c3bafa6f52c') in 0.0106231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity/Babka_Face_MaskMap.jpg
+  artifactKey: Guid(31e43ce650ae0e34a8f7754ee74dc8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Face_MaskMap.jpg using Guid(31e43ce650ae0e34a8f7754ee74dc8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fc4df19a8ffb13c7d0542bc6f7960e2') in 0.0105331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/roof_Roof_Normal.jpg
+  artifactKey: Guid(a32868212ee470948b25940d7ef266f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/roof_Roof_Normal.jpg using Guid(a32868212ee470948b25940d7ef266f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6346f5c56806633595849a40f8b1d8a8') in 0.027245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330346 seconds.
+  path: Assets/Unity/Rooms_cORR2_Normal.jpg
+  artifactKey: Guid(b266e1c52b164a546861b94a1cc2d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Rooms_cORR2_Normal.jpg using Guid(b266e1c52b164a546861b94a1cc2d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af63f0ee0ee428509822306a86e336b') in 0.0148127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_MaskMap.jpg
+  artifactKey: Guid(96d35ab83e216f049a5c122e8997ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_MaskMap.jpg using Guid(96d35ab83e216f049a5c122e8997ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f905df20fbc55d6d6d9598a2fa09bb') in 0.0486323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

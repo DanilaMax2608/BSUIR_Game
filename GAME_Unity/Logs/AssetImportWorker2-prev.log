@@ -1,0 +1,543 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 65401 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/GAME_Unity
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61444
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/GAME_Unity
+D:/GAME_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43736]  Target information:
+
+Player connection [43736]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 710028282 [EditorId] 710028282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3291VA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [43736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.35f1 (9a3bc604008a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GAME_Unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002722 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 608ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1477ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6698 unused Assets / (5.5 MB). Loaded Objects now: 7668.
+Memory consumption went from 254.1 MB to 248.6 MB.
+Total: 8.389000 ms (FindLiveObjects: 0.646800 ms CreateObjectMapping: 0.831700 ms MarkObjects: 4.385600 ms  DeleteObjects: 2.523500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 352085.012051 seconds.
+  path: Assets/Unity/Apar_Wall_Tiles_BaseMap.jpg
+  artifactKey: Guid(a88c5793596acb047a70bbc8aeb9741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Wall_Tiles_BaseMap.jpg using Guid(a88c5793596acb047a70bbc8aeb9741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba038b36614e92168a7b7184d38d516') in 0.0837675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity/Apar_Balcony_BaseMap.jpg
+  artifactKey: Guid(fdf709d51bb482a4ea975437a362f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Balcony_BaseMap.jpg using Guid(fdf709d51bb482a4ea975437a362f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26593709c21ac0aba3920f1788e3f9c5') in 0.0160391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity/Apar_Bedroom_BaseMap.jpg
+  artifactKey: Guid(75f8d4bdca511264b9526352fb878fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Bedroom_BaseMap.jpg using Guid(75f8d4bdca511264b9526352fb878fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '017a94ef262873c78afa90b9856e6d30') in 0.0205015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Apar_Door_Archs_Normal.jpg
+  artifactKey: Guid(153b3993e0a7ba84583f71bea4c997a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Door_Archs_Normal.jpg using Guid(153b3993e0a7ba84583f71bea4c997a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4304495d8c6597c1174851a935455014') in 0.0534285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity/Apar_Glass_BaseMap.jpg
+  artifactKey: Guid(46a68ba3f97a41c4c8087030e4439431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Glass_BaseMap.jpg using Guid(46a68ba3f97a41c4c8087030e4439431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '707a17b7a6b0d1551778378c5bccb3d1') in 0.016942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity/Apar_Molding_Mat_Normal.jpg
+  artifactKey: Guid(4c504fc974ece894eb96ad8396fe7320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Molding_Mat_Normal.jpg using Guid(4c504fc974ece894eb96ad8396fe7320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102d7f7fa587749110f8c0b7a775dfef') in 0.0139715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity/Apar_Walls_Mat_BaseMap.jpg
+  artifactKey: Guid(b6db6af769668d64ead1899599184ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Apar_Walls_Mat_BaseMap.jpg using Guid(b6db6af769668d64ead1899599184ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81efdaff1b98f7765532bfbda554dd70') in 0.0134952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972827 seconds.
+  path: Assets/Unity/Babka_Body.001_Normal.jpg
+  artifactKey: Guid(d1a8dc32abc1d604da9cf0327227d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Body.001_Normal.jpg using Guid(d1a8dc32abc1d604da9cf0327227d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2fdd73f481c08526bbf46a9d8fb97a4') in 0.0130305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity/doors_albedo.jpg
+  artifactKey: Guid(ccc794d9fe4c0194b98c931fad9f1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/doors_albedo.jpg using Guid(ccc794d9fe4c0194b98c931fad9f1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b302e8e3f5a80b3ded61475d16067e') in 0.0145778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity/Lipstick_DefaultMaterial_MaskMap.jpg
+  artifactKey: Guid(dbd97de32365e00479a986971b0a08b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Lipstick_DefaultMaterial_MaskMap.jpg using Guid(dbd97de32365e00479a986971b0a08b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dde586585217cdfce4003b31cf080159') in 0.016432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity/Babka_Hair_Normal.jpg
+  artifactKey: Guid(5d17486693a03ad41a0ab0a269fad04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Babka_Hair_Normal.jpg using Guid(5d17486693a03ad41a0ab0a269fad04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc534a11b29cc63362997ff13b0b83d2') in 0.0147926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity/Lipstick_DefaultMaterial_BaseMap.jpg
+  artifactKey: Guid(c717638a303d6694bb37737e483e7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Lipstick_DefaultMaterial_BaseMap.jpg using Guid(c717638a303d6694bb37737e483e7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a62902d3c759f0b66c9c67f8f12f070') in 0.0250577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256423 seconds.
+  path: Assets/Unity/Rooms_cORR2_BaseMap.jpg
+  artifactKey: Guid(7b58d123fe453c24f9eaf70b1f2cd383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Rooms_cORR2_BaseMap.jpg using Guid(7b58d123fe453c24f9eaf70b1f2cd383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b0485a1899c5496661575c41ea65522') in 0.0536369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg
+  artifactKey: Guid(19857c22601649f48938c1fd4e6c409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg using Guid(19857c22601649f48938c1fd4e6c409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc1abf828cee407180a04e3b39a8120d') in 0.0349434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.205647 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_BaseMap 1.jpg
+  artifactKey: Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_BaseMap 1.jpg using Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd85ff7f8e8c73df7d39cd71cb8d453') in 0.010954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.152737 seconds.
+  path: Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg
+  artifactKey: Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Texture_Update_Tambur_Walls_BaseMap.jpg using Guid(e1f20a036c36b30498806cc34a7d6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '962b6af42070b8299d0e41fbd649dc6e') in 0.0154735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.455664 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(1bddb547ef00c1f47b8d943de0db2560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(1bddb547ef00c1f47b8d943de0db2560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7372acd0af57035460f48a6ed464ba') in 0.0007128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.901316 seconds.
+  path: Assets/Unity_for_gays
+  artifactKey: Guid(8cd314d86480c334fa2f680fa3aabdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays using Guid(8cd314d86480c334fa2f680fa3aabdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e27da3c1bd347d67161d06d622f77e9') in 0.0003952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.126266 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays
+  artifactKey: Guid(9ab6bfa6b5ee6db42bda697c2ef47ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays using Guid(9ab6bfa6b5ee6db42bda697c2ef47ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c77f651799c93eef73a3735b6e17efd7') in 0.0003455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022791 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/60804b_no_logo_no_text.jpg
+  artifactKey: Guid(d9c5bd2879e580b468abe5c0881e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/60804b_no_logo_no_text.jpg using Guid(d9c5bd2879e580b468abe5c0881e4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf344a4683a8695ec0e9f0c4d1ae11d') in 0.0120849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Interior_Details_MaskMap.jpg
+  artifactKey: Guid(8bea828d71335cc4eb363131e0043e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Interior_Details_MaskMap.jpg using Guid(8bea828d71335cc4eb363131e0043e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69479666f7960e93209a727d0994fc9') in 0.0201603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_Normal.jpg
+  artifactKey: Guid(52123b665d7543848ae3f86c556b1baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_Normal.jpg using Guid(52123b665d7543848ae3f86c556b1baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdb72102dcf96fdf5ca68c680a44903') in 0.0437967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Hallway_Furniture_MaskMap.jpg
+  artifactKey: Guid(d054061f35b38a24a83e41e9cd68542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Hallway_Furniture_MaskMap.jpg using Guid(d054061f35b38a24a83e41e9cd68542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7648afd2cd5bfcce7053e25bdf4d28b') in 0.0342672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Books_Normal.jpg
+  artifactKey: Guid(7e76ab7aa7c38ec4bbaa3169feed48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Books_Normal.jpg using Guid(7e76ab7aa7c38ec4bbaa3169feed48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd771aa1791641264716d91aa8721b09f') in 0.0243393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Balcony_Furniture_Normal.jpg
+  artifactKey: Guid(b5726812750178046a5df7f1f81ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Balcony_Furniture_Normal.jpg using Guid(b5726812750178046a5df7f1f81ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e837b068d6c387398f6bbd12477324d9') in 0.0538319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Bedroom_Furniture_Normal.jpg
+  artifactKey: Guid(e8f5c8962284b4145951cea88d0f8a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Bedroom_Furniture_Normal.jpg using Guid(e8f5c8962284b4145951cea88d0f8a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '812f76b8c1a829eabb58195bc2953379') in 0.0198219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Books_BaseMap.jpg
+  artifactKey: Guid(b7316702c59310542a2de5e13532eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Books_BaseMap.jpg using Guid(b7316702c59310542a2de5e13532eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3af6ad790f9537ad646bbbf7d8314250') in 0.0148297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Toilet_Shelf_Normal.jpg
+  artifactKey: Guid(5b80f3c580d57ed4f857dfed975a7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Toilet_Shelf_Normal.jpg using Guid(5b80f3c580d57ed4f857dfed975a7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9cde738a28d945b1b73eef102d4a506') in 0.0203906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Plants_Normal.jpg
+  artifactKey: Guid(513da009f58da474cb66d8d9bce92800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Plants_Normal.jpg using Guid(513da009f58da474cb66d8d9bce92800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be8a136abb8bb2a134a35dea821670a4') in 0.0134711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Props_MaskMap.jpg
+  artifactKey: Guid(cfc76128917c81b44a007d7639480fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Props_MaskMap.jpg using Guid(cfc76128917c81b44a007d7639480fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b991045d9a5cb4a5db9d4f2b5fd5f40') in 0.013124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Carpets_MaskMap.jpg
+  artifactKey: Guid(35539c0a4c3aca24489687040894cbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Carpets_MaskMap.jpg using Guid(35539c0a4c3aca24489687040894cbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7975b1e81451dcd5a0c98fd59a5288') in 0.0122713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Balcony_Furniture_MaskMap.jpg
+  artifactKey: Guid(887ded49395a5414ab32dbfb0c9eb813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Balcony_Furniture_MaskMap.jpg using Guid(887ded49395a5414ab32dbfb0c9eb813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3b074857d4ee9535b3f62681a08c417') in 0.0114269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Bedroom_Furniture_BaseMap.jpg
+  artifactKey: Guid(7669d9ca11d2b1c45a3ec0475d6a73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Bedroom_Furniture_BaseMap.jpg using Guid(7669d9ca11d2b1c45a3ec0475d6a73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f235a719fb61703bee5aa0395e26b29') in 0.0541524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Grapes_Bake1_PBR_Diffuse.jpg
+  artifactKey: Guid(2dcb00cfb29705f408c2b41da08e5dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Grapes_Bake1_PBR_Diffuse.jpg using Guid(2dcb00cfb29705f408c2b41da08e5dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '371e9327b6bb0312c648fc178e71fc37') in 0.0103458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Books_MaskMap.jpg
+  artifactKey: Guid(cd312c1411e3d6e4d994f96af7ce414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Books_MaskMap.jpg using Guid(cd312c1411e3d6e4d994f96af7ce414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b036f5a30fb90ace853ed0506f5aadb') in 0.0234381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Bathroom_Furniture_BaseMap.jpg
+  artifactKey: Guid(8458c820ad2bdf24eb1863635ef2f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Bathroom_Furniture_BaseMap.jpg using Guid(8458c820ad2bdf24eb1863635ef2f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9c3d9deb37bc6b6c202d117f65a172') in 0.0313166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Hallway_Furniture_Normal.jpg
+  artifactKey: Guid(eafe9f68fd06202418be0f4689103de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Hallway_Furniture_Normal.jpg using Guid(eafe9f68fd06202418be0f4689103de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46ab5001d38ecd4886b901bf8514507') in 0.0249334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Bathroom_Furniture_MaskMap.jpg
+  artifactKey: Guid(19d8fac1410542f479392947a1cf9699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Bathroom_Furniture_MaskMap.jpg using Guid(19d8fac1410542f479392947a1cf9699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37358a784243ad4c856a66c0104d8ece') in 0.0115527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Furniture_Livingroom_Furniture_BaseMap.jpg
+  artifactKey: Guid(41bf42c91b8589a4da8031c2ce85aba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Furniture_Livingroom_Furniture_BaseMap.jpg using Guid(41bf42c91b8589a4da8031c2ce85aba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf83179b7dabff8af1ced121d4a6a493') in 0.0233349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_MaskMap.jpg
+  artifactKey: Guid(0ba548eef521be2448eb5359c8e82dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_MaskMap.jpg using Guid(0ba548eef521be2448eb5359c8e82dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3491ae4c6ccfc3712376818f8de0501d') in 0.0228002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Props_Carpets_BaseMap.jpg
+  artifactKey: Guid(1e71ed733be2cb4489d9bd89a591ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Props_Carpets_BaseMap.jpg using Guid(1e71ed733be2cb4489d9bd89a591ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac260783f018fee0ae1893c8aad1387') in 0.0162017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Paintings_Props2_MaskMap.jpg
+  artifactKey: Guid(e28b6f1a77a2bb240bcb12bf295e16b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Paintings_Props2_MaskMap.jpg using Guid(e28b6f1a77a2bb240bcb12bf295e16b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84213b5e5d3d034a39c71dc3bde55ae3') in 0.0112799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_BaseMap.jpg
+  artifactKey: Guid(c0390c80877e9604ba39127ac3356fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Usable_Usable_BaseMap.jpg using Guid(c0390c80877e9604ba39127ac3356fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4791df001818b1e5e35312f3063b5f6b') in 0.0166911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity_for_gays/Unity_for_gays/Cabinet_Cabinet_Normal.jpg
+  artifactKey: Guid(c2a31d114649e29449470f8af2cb6fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_for_gays/Unity_for_gays/Cabinet_Cabinet_Normal.jpg using Guid(c2a31d114649e29449470f8af2cb6fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1947d37ad45af57ccf83482a1488b022') in 0.0117721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
